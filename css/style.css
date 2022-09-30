@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root{
+    --font-family: 'Montserrat', sans-serif;
+    --primary-color: #F8EDE3;
+    --bg-color: #256D85; 
+    --botao-color: #06283D;
+    --bg-card: #47B5FF;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color)
+}
+
+.card-titulo{
+    background-color: var(--botao-color);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-principal{
+    font-size: 3em;
+}
+
+.sessao{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: var(--bg-card);
+    width: 30%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    
+}
+
+.card__imagem{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card__titulo{
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.card__descricao{
+    font-size: 1rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.card__botao{
+    background-color: var(--botao-color);
+    color: var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 80px;
+    
+}
+
+.card__botao:hover{
+    font-size: 0.9rem;
+    opacity: 0.8;
+    transition: 500ms;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.video{
+    margin-top: 2rem;
+    width: 800px;
+}
